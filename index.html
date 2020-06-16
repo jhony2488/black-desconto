@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!--[if lt IE 9]>
+    <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="./assets/default/logo/favicons.ico/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <!--  meta tag para colocar a descrição da page  -->
+  <meta name="description" content="Meta Tags na Devmedia">
+  <!--  meta tag para colocar as palavras chaves  -->
+  <meta name="keywords" content="sites, web, desenvolvimento">
+  <meta name="copyright" content="© 2019 BlackDesconto" />
+  <meta name="robots" content="index">
+  <meta http-equiv="imagetoolbar" content="no" />
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/default/logo/icon-logo.png" />
+  <link rel="manifest" href="./assets/default/logo/favicons//manifest.json" />
+
+  <title>BlackDesconto</title>
+  <link rel="stylesheet" href="./css/default/reset/index.css" />
+  <link rel="stylesheet" href="./css/default/normalize/index.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet" />
+  <link href="./assets/default/fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/default/index.css" />
+  <link rel="stylesheet" href="./css/Home/banner.css" />
+  <link rel="stylesheet" href="./css/default/buttons.css" />
+  <link rel="stylesheet" href="./css/Home/about.css" />
+  <link rel="stylesheet" href="./css/Home/shops.css">
+  <link rel="stylesheet" href="./css/Home/category.css">
+  <link rel="stylesheet" href="./css/Home/commonQuestions.css">
+  <link rel="stylesheet" href="./css/default/footer.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navegacao">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img class="icon-logo" src="./assets/default/logo/icon-logo.png" alt="" />
+          <img class="logo" src="./assets/default/logo/logo-name.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+          aria-expanded="false" aria-label="Menu Colapso">
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto text-light nav-menu">
+            <li class="nav-item">
+              <form action="">
+                <div class="input-group">
+                  <input type="text" class="form-control search" placeholder="Pesquise qui">
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary orange" type="button">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </li>
+            <li class="nav-item  login">
+              <a href="#header" class="nav-link text-light font-weight-bold">Login</a>
+            </li>
+            <li class="nav-item cadastro">
+              <a href="#" class="nav-link  text-light font-weight-bold">Cadastro</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--
+        bannner top
+      -->
+  <section class="banner" id="banner">
+
+    <div class="apresentation">
+      <!--
+   Esta e uma area que voce pode colocar um aviso no caso uma caixa de aviso
+ -->
+      <div class="apresentation-content">
+        <div class="col1">
+          <img src="./assets/Home/banner.jpeg" alt="economize com cupons">
+        </div>
+        <div class="col2">
+          <h2>Cupons de Desconto e Cashback em diversas lojas online</h2>
+          <p>Nos podemos te ajuda a encontrar as lojas e, com apenas um clique, você ativa o cashback na sua compra.</p>
+          <a href="#about">
+            <button class="button-primary ">Cadastre-se</button>
+          </a>
+        </div>
+      </div>
+      <a href="#shops">
+        <button class="button-arrow">
+          <img src="./assets/default/icons/angle-down-solid.svg" alt="" />
+        </button>
+      </a>
+    </div>
+  </section>
+  <!-- 
+        section about
+      -->
+  <section class="container-shops" id="shops">
+    <div class="center" >
+      <div class="title">
+        <h1>Principais Lojas</h1>
+        <div class="bar"></div>
+      </div>
+      <div class="shops">
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+        <a href="">loja cupon</a>
+      </div>
+    </div>
+    <div class="know-more">
+      <a href="">Ver mais</a>
+    </div>
+  </section>
+  <section class="container-category">
+    <div class="center">
+      <div class="title">
+        <h1>Categorias</h1>
+        <div class="bar"></div>
+      </div>
+      <div class="category">
+        <a href=""><i class="fa fa-pizza-slice"></i> Alimentos e bebidas</a>
+        <a href=""><i class="fa fa-magic"></i> Beleza e saúde</a>
+        <a href=""><i class="fa fa-mobile"></i> Celulares e Smartphones</a>
+        <a href=""><i class="fa fa-user-graduate"></i> Cursos</a>
+        <a href=""><i class="fa fa-mobile-alt"></i> Eletrônicos e tecnologia</a>
+        <a href=""><i class="fa fa-basketball-ball"></i> Esporte e lazer</a>
+        <a href=""><i class="fa fa-laptop"></i> Informática</a>
+        <a href=""><i class="fa fa-building"></i> Loja de departamento</a>
+        <a href=""><i class="fa fa-tshirt"></i> Moda e Acessórios</a>
+        <a href=""><i class="fa fa-couch"></i> Moveis casa e decoração</a>
+        <a href=""><i class="fa fa-hand-holding-heart"></i> Serviços</a>
+        <a href=""><i class="fas fa-globe-americas"></i> Viagem e turismo</a>
+      </div>
+    </div>
+    <div class="know-more">
+      <a href="">Ver mais</a>
+    </div>
+  </section>
+  <section class="container-questions">
+    <div class="center">
+      <div class="title questions-title">
+        <h1>Perguntas frequentes</h1>
+        <div class="bar"></div>
+      </div>
+      <div class="questions-content">
+        <div class="question">
+          <h2>oque oque e </h2>
+          <p> Integer consectetur, tortor et gravida ultricies, magna turpis
+            eleifend risus, rutrum fermentum justo turpis scelerisque diam.
+            Vestibulum quis nunc in neque sollicitudin consequat. Nulla
+            consequat purus ac blandit volutpat. Orci varius natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus. Sed
+            vulputate eros at porttitor ultrices. In id enim lobortis, mattis
+            sapien nec, interdum ante. Fusce erat nisi, malesuada ac neque
+            non, blandit blandit augue. Pellentesque in laoreet nunc. Etiam eu
+            tortor ante.</p>
+        </div>
+        <div class="question">
+          <h2>oque oque e </h2>
+          <p> Integer consectetur, tortor et gravida ultricies, magna turpis
+            eleifend risus, rutrum fermentum justo turpis scelerisque diam.
+            Vestibulum quis nunc in neque sollicitudin consequat. Nulla
+            consequat purus ac blandit volutpat. Orci varius natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus. Sed
+            vulputate eros at porttitor ultrices. In id enim lobortis, mattis
+            sapien nec, interdum ante. Fusce erat nisi, malesuada ac neque
+            non, blandit blandit augue. Pellentesque in laoreet nunc. Etiam eu
+            tortor ante.</p>
+        </div>
+        <div class="question">
+          <h2>oque oque e </h2>
+          <p> Integer consectetur, tortor et gravida ultricies, magna turpis
+            eleifend risus, rutrum fermentum justo turpis scelerisque diam.
+            Vestibulum quis nunc in neque sollicitudin consequat. Nulla
+            consequat purus ac blandit volutpat. Orci varius natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus. Sed
+            vulputate eros at porttitor ultrices. In id enim lobortis, mattis
+            sapien nec, interdum ante. Fusce erat nisi, malesuada ac neque
+            non, blandit blandit augue. Pellentesque in laoreet nunc. Etiam eu
+            tortor ante.</p>
+        </div>
+        <div class="question">
+          <h2>oque oque e </h2>
+          <p> Integer consectetur, tortor et gravida ultricies, magna turpis
+            eleifend risus, rutrum fermentum justo turpis scelerisque diam.
+            Vestibulum quis nunc in neque sollicitudin consequat. Nulla
+            consequat purus ac blandit volutpat. Orci varius natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus. Sed
+            vulputate eros at porttitor ultrices. In id enim lobortis, mattis
+            sapien nec, interdum ante. Fusce erat nisi, malesuada ac neque
+            non, blandit blandit augue. Pellentesque in laoreet nunc. Etiam eu
+            tortor ante.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="logo-icon">
+      <div class="icon">
+        <a href="" target="blank"><i class="fab fa-facebook"></i></a>
+        <a href="" target="blank"><i class="fab fa-twitter"></i></a>
+        <a href="" target="blank"><i class="fab fa-youtube"></i></a>
+        <a href="" target="blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <img class="icon-logo" src="./assets/default/logo/uico.png" alt="icon BlackDesconto">
+      <img class="logo" src="./assets/default/logo/logo-name.png" alt="name logo">
+    </div>
+    <div class="info-footer">
+
+      <div>
+        <nav class="nav-footer">
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+        </nav>
+        <br>
+        <br>
+        <p>Copyrigth &copy; Black<span class="logo-footer">Desconto</span>, todos os direitos reservados <br> <br
+            class="break">
+
+          <span>lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis mauris vitae orci tempus
+            convalli</span>
+      </div>
+      </p>
+    </div>
+  </footer>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!--[if lt IE 9]>
+    <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="./assets/default/logo/favicons.ico/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <!--  meta tag para colocar a descrição da page  -->
+  <meta name="description" content="Meta Tags na Devmedia">
+  <!--  meta tag para colocar as palavras chaves  -->
+  <meta name="keywords" content="sites, web, desenvolvimento">
+  <meta name="copyright" content="© 2019 BlackDesconto" />
+  <meta name="robots" content="index">
+  <meta http-equiv="imagetoolbar" content="no" />
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/default/logo/icon-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/default/logo/icon-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/default/logo/icon-logo.png" />
+  <link rel="manifest" href="./assets/default/logo/favicons//manifest.json" />
+
+  <title>BlackDesconto Login</title>
+  <link rel="stylesheet" href="./css/default/reset/index.css" />
+  <link rel="stylesheet" href="./css/default/normalize/index.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet" />
+  <link href="./assets/default/fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/default/index.css" />
+  <link rel="stylesheet" href="./css/default/buttons.css" />
+  <link rel="stylesheet" href="./css/default/footer.css">
+  <link rel="stylesheet" href="./css/login/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navegacao">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img class="icon-logo" src="./assets/default/logo/icon-logo.png" alt="" />
+          <img class="logo" src="./assets/default/logo/logo-name.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+          aria-expanded="false" aria-label="Menu Colapso">
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto text-light nav-menu">
+            <li class="nav-item">
+              <form action="">
+                <div class="input-group">
+                  <input type="text" class="form-control search" placeholder="Pesquise qui">
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary orange" type="button">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </li>
+            <li class="nav-item  login">
+              <a href="#header" class="nav-link text-light font-weight-bold">Login</a>
+            </li>
+            <li class="nav-item cadastro">
+              <a href="#" class="nav-link  text-light font-weight-bold">Cadastro</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="login_form">
+    <setion class="login-wrapper">
+      <div class="login-social-media">
+        <button class="loginBtn loginBtn--facebook">
+          Login com Facebook
+        </button>
+        <p>ou</p>
+      </div>
+
+      <form id="login" method="post" class="form" action="#">
+        <label for="username">Email</label>
+        <input required name="login[username]" type="email" placeholder="exemplo@mail.com.br" autocapitalize="off"
+          autocorrect="off" />
+
+        <label for="password">Senha</label>
+        <input class="password" required name="login[password]" type="password" placeholder="senha" />
+        <div class="hide-show">
+          <span>Mostrar</span>
+        </div>
+        <button type="submit">Entrar</button>
+
+      </form>
+      <div class="link-login">
+        <a href="">Recuperar senha</a> <a href="">Cadastre-se</a>
+      </div>
+      </section>
+  </div>
+  <footer class="footer">
+    <div class="logo-icon">
+      <div class="icon">
+        <a href="" target="blank"><i class="fab fa-facebook"></i></a>
+        <a href="" target="blank"><i class="fab fa-twitter"></i></a>
+        <a href="" target="blank"><i class="fab fa-youtube"></i></a>
+        <a href="" target="blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <img class="icon-logo" src="./assets/default/logo/uico.png" alt="icon BlackDesconto">
+      <img class="logo" src="./assets/default/logo/logo-name.png" alt="name logo">
+    </div>
+    <div class="info-footer">
+
+      <div>
+        <nav class="nav-footer">
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+          <a href="">item1</a>
+        </nav>
+        <br>
+        <br>
+        <p>Copyrigth &copy; Black<span class="logo-footer">Desconto</span>, todos os direitos reservados <br> <br
+            class="break">
+
+          <span>lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis mauris vitae orci tempus
+            convalli</span>
+      </div>
+      </p>
+    </div>
+  </footer>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/login.js"></script>
+
+</html>
