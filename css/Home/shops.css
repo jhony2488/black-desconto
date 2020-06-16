@@ -1,0 +1,53 @@
+.container-shops {
+  width: 100%;
+  min-height: 40vh;
+  background-color: RGBA(196, 196, 196, 0.3);
+  padding-top: 30px;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 40px;
+}
+.bar {
+  width: 240px;
+  height: 2px;
+  background-color: red;
+}
+.title {
+  width: 100%;
+  display: grid;
+  justify-items: left;
+  height: 80px;
+  padding: 10px 0 30px 30px;
+  margin-left: -20px;
+  text-align: left;
+}
+.title h1 {
+  font-size: 30px;
+}
+.shops {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.shops a {
+  color: black;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .shops {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .title {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    height: 80px;
+    padding: 10px 0 30px 30px;
+    margin-left: -20px;
+    text-align: left;
+  }
+}

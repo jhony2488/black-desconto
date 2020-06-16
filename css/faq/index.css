@@ -1,0 +1,60 @@
+.container-faq {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 150px;
+  display: grid;
+  justify-items: center;
+  color: rgb(19, 16, 16, 0.6);
+}
+.title h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.container-faq .header-faq {
+  width: 80%;
+}
+.content-faq {
+  width: 80%;
+  min-height: 400px;
+  margin-top: 40px;
+}
+.card {
+  border-left: none;
+  border-right: none;
+  -webkit-box-shadow: 3px 15px 21px 3px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 3px 15px 21px 3px rgba(0, 0, 0, 0.58);
+  box-shadow: 3px 15px 21px 3px rgba(0, 0, 0, 0.58);
+  margin-top: 10px;
+}
+.card:hover {
+  border: 1.2px solid black;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow: none;
+}
+.btn-link {
+  color: darkorange;
+}
+.btn-link:hover,
+.btn-link:active {
+  color: rgb(100, 100, 0, 0.4);
+}
+.footer-faq {
+  width: 80%;
+}
+.footer-faq .title-footer {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 40px;
+}
+.footer-faq .title-footer a {
+  color: darkorange;
+}
+.footer-faq .title-footer a {
+  color: darkorange;
+}

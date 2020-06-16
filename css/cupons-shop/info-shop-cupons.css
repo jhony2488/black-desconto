@@ -1,0 +1,23 @@
+.info-shop__cupons-header {
+  width: 100%;
+  text-align: justify;
+}
+.info-shop__cupons-header h2 {
+  font-weight: bold;
+}
+.info-shop__cupons-header p {
+  font-size: 13px;
+}
+@media (max-width: 1240px) {
+  .info-shop__cupons-header h2 {
+    text-align: center;
+  }
+  .card{
+    max-width: 100%;
+  }
+}
+@media(max-width:500px){
+  .info-shop__cupons-header p {
+    display: none;
+  }
+}

@@ -1,0 +1,65 @@
+.content-cupons {
+  display: grid;
+  grid-gap: 40px;
+  justify-items: center;
+}
+.content-cupons h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.content-cupons h3 {
+  text-align: center;
+}
+.card-cupon {
+  width: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-column-gap: 30px;
+  text-align: justify;
+  border-radius: 50px;
+  padding: 20px;
+  -webkit-box-shadow: 3px 25px 21px 10px rgba(209, 197, 209, 0.93);
+  -moz-box-shadow: 3px 25px 21px 10px rgba(209, 197, 209, 0.93);
+  box-shadow: 3px 25px 21px 10px rgba(209, 197, 209, 0.93);
+  cursor: pointer;
+}
+.card-cupon:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid gray;
+}
+.card-cupon .descri {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+}
+.porcent-green {
+  color: green;
+}
+h3.title-card1 {
+  color: rgb(0, 247, 255);
+  font-size: 40px;
+}
+h3.title-card2 {
+  color: rgb(0, 255, 128);
+  font-size: 40px;
+}
+.page-link {
+  color: darkorange;
+}
+@media(max-width:1100px){
+  .card-cupon{
+    grid-template-columns: 1fr 2.5fr;
+  }
+}
+@media(max-width:800px){
+  .card-cupon{
+    grid-template-columns: 1fr;
+  }
+}

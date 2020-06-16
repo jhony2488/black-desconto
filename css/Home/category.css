@@ -1,0 +1,32 @@
+.container-category {
+  width: 100%;
+  min-height: 40vh;
+  background-color: white;
+  padding-top: 30px;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 40px;
+}
+.category {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 35px);
+}
+.category a {
+  color: black;
+}
+.fa{
+  margin-right: 3px;
+}
+@media (max-width: 900px) {
+  .category {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-gap: 7px;
+    text-align: center;
+
+  }
+}

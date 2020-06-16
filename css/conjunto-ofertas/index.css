@@ -1,0 +1,70 @@
+.conjunto-ofertas {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 150px;
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  justify-items: center;
+}
+
+.conjunto-ofertas h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: darkorange;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.content-ofertas {
+}
+.content-ofertas h1 {
+  margin-top: 130px;
+  text-align: center;
+}
+.content-ofertas h3 {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: -30px;
+}
+.card-effect {
+  cursor: pointer;
+  margin-top: 50px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.card-effect:hover {
+  -webkit-box-shadow: 0px 35px 32px 6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 35px 32px 6px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 35px 32px 6px rgba(0, 0, 0, 0.24);
+}
+.like-deslike {
+  font-size: 30px;
+}
+.like-deslike .fa-thumbs-up {
+  color: rgb(23, 124, 219);
+}
+.like-deslike .fa-thumbs-down {
+  color: red;
+}
+.like-deslike .fa-thumbs-down:hover,
+.like-deslike .fa-thumbs-up:hover {
+  transform: scale(1.1);
+}
+.footer {
+  margin-top: 70px;
+}
+@media (max-width: 1240px) {
+  .ofertas {
+    width: 100%;
+    grid-template-columns: 90%;
+    grid-row-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}

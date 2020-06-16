@@ -1,0 +1,39 @@
+/***** Divider *****/
+
+.divider-1 span {
+  display: inline-block;
+  width: 200px;
+  border-bottom: 1px dotted #aaa;
+}
+
+/***** Top menu *****/
+
+/***** Top content *****/
+
+.top-content {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  border: 0;
+}
+
+.category {
+  width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+}
+.img-responsive {
+  width: 100%;
+  height: 220px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-color: rgb(247, 138, 6, 0.4);
+}

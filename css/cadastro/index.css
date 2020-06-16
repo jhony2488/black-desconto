@@ -1,0 +1,13 @@
+section {
+  padding: 150px 0;
+}
+
+label {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+#form-ticket-cliente h2 {
+  text-align: center;
+}
+
